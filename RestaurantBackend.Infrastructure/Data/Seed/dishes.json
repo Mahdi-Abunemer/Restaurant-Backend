@@ -505,18 +505,5 @@
     "CreateDateTime": "2025-03-11T10:33:06.2997128",
     "ModifyDateTime": "2025-03-11T10:33:06.2997128",
     "DeleteDate": null
-  },
-  {
-    "Id": "00704D0A-1580-459D-8066-FEA40D3D3BB6",
-    "Name": "Seif",
-    "Description": "SoGood",
-    "Photo": "Http//sdfjsdfjks;df",
-    "Price": 0.0,
-    "IsVegetarian": false,
-    "AverageRating": 0.0,
-    "Category": 0,
-    "CreateDateTime": "0001-01-01T00:00:00",
-    "ModifyDateTime": "0001-01-01T00:00:00",
-    "DeleteDate": null
   }
 ]

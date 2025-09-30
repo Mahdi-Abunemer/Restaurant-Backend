@@ -37,8 +37,6 @@ namespace RestaurantBackend.Infrastructure.Data
                 dish.ModifyDateTime = DateTime.SpecifyKind(dish.ModifyDateTime, DateTimeKind.Utc);
                 if (dish.DeleteDate.HasValue)
                     dish.DeleteDate = DateTime.SpecifyKind(dish.DeleteDate.Value, DateTimeKind.Utc);
-
-                builder.Entity<Dish>().HasData(dish);
             }
 
             foreach (Dish dish in dishList)

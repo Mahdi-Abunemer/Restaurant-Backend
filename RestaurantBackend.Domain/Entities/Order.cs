@@ -11,7 +11,7 @@ namespace RestaurantBackend.Domain.Entities
     {
         public Guid Id { get; set; }
         public DateTime DeliveryTime { get; set; }
-        public DateTime OrderTime { get; set; }  /
+        public DateTime OrderTime { get; set; }  
         public DateTime ModifyDateTime { get; set; }
         public DateTime? DeleteDate { get; set; }
         public double Price { get; set; }

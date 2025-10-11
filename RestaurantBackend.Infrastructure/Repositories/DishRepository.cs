@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using RestaurantBackend.Application.Interfaces;
+using RestaurantBackend.Application.Interfaces.Repositories;
 using RestaurantBackend.Domain.Entities;
 using RestaurantBackend.Infrastructure.Data;
 using System;

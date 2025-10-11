@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RestaurantBackend.Application.Interfaces
+namespace RestaurantBackend.Application.Interfaces.Repositories
 {
     public interface IDishRepository
     {

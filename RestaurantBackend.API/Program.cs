@@ -2,7 +2,6 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
-using RestaurantBackend.Application.Interfaces;
 using RestaurantBackend.Application.Interfaces.Repositories;
 using RestaurantBackend.Application.Interfaces.Services;
 using RestaurantBackend.Infrastructure.Data;

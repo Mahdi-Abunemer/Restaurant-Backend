@@ -2,9 +2,11 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using RestaurantBackend.Application.Interfaces.Repositories;
 using RestaurantBackend.Application.Interfaces.Services;
 using RestaurantBackend.Infrastructure.Data;
 using RestaurantBackend.Infrastructure.Identity;
+using RestaurantBackend.Infrastructure.Repositories;
 using RestaurantBackend.Infrastructure.Services;
 using System;
 using System.Text;
@@ -26,6 +28,10 @@ builder.Services.AddHttpContextAccessor();
 
 builder.Services.AddScoped<ITokenService, TokenService>();
 builder.Services.AddScoped<IAccountService, AccountService>();
+builder.Services.AddScoped<IBasketService, BasketService>();
+
+builder.Services.AddScoped<IBasketRepository, BasketRepository>();
+builder.Services.AddScoped<IDishRepository, DishRepository>();
 
 //Jwt
 builder.Services.AddAuthentication(options =>
